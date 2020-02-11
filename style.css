@@ -1,0 +1,21 @@
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 input{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.wrapper{
+    background-color: red;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.wrapper .container1 input{
+    font-size: 30px;
+}
